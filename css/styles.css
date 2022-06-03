@@ -1,23 +1,28 @@
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-.container-fluid{
-    padding: 3% 15%;
-}
-.row{
-    padding:3% 15%;
-}
 h1 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
-/* Navbar */
-.navbar{
-    padding: 0 0 4.5rem;
+h3 { 
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
 }
+p {
+    color: gray;
+}
+#title{
+    
+    background-color: #ff4c68;
+   
+    color: #fff;
+}
+/* Navbar */
+
 .navbar-brand{
     font-family: "Ubuntu";
     font-size: 2.5rem;
@@ -31,4 +36,102 @@ h1 {
 /*buttons*/
 .custom-btn{
     margin: 5% 3% 5% 0%;
+}
+
+/*image*/
+.title-img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+/*feature-section*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.features-box{
+    text-align: center;
+}
+.icon{
+    padding-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonials-section*/
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*Press Section*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action Section*/
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #fff;
+    
+    
+}
+/*footer*/
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+.footer-icon{
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    #features{
+        position: static;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
 }
